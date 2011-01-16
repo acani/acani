@@ -1,25 +1,44 @@
+acani:
+	Views:
+		- WelcomeView: logo & slogan, intro info, connect with Facebook
+			- PrivacyPolicyView (modalView): textView of the Privacy Policy
+		- LauncherView: add/search new people/interests to your launcher; rearrange; log out
+		- InterestsView: 
+		- ProfileView: edit profile fields, filters, & interests; edit interest-specific settings
+		- UsersView: photo grid w/ flags; header & iAd footer
+		- PhotoView: profile photo & info; favorite, block, & chat buttons
+		- MessagesView: display conversations, like iPhone Messages
+		- ChatView: chat; more button to send location, photo, clear chat. Push notifications
+		- Interface w/ Network Server. FBConnect & Twitter. Test & final touches
+
+	Servers:
+		- Profiles: Sinatra & MongoDB - http://acani.heroku.com/
+		- Chat: Node.js & Redis - http://acani.no.de/
+
 v. 1.0.0:
 	AppDelegate:
 		Life Cycle:
-			- On launch, set myUser if FBConnection exists.
-				- Else, redirect to WelcomeView.
+			- On launch, set myUser if FBConnection exists
+				- Else, redirect to WelcomeView
 		Location:
-			- Make a global function to get location asynchronously.
-			- Check location every 3 minutes; send to server if greater than 3 miles from last sent location.
+			- Make a global function to get location asynchronously
+			- Check location every 3 minutes; send to server if greater than 3 miles from last sent location
 
-	WelcomeView:  @Matt
-		Shown on first log in
-		- Design logo (at-sign); Put at top
-		- Add paragraph
-			- "Meet people nearby with similar interests."
+	FBConnect:
+		- Get email, sync picture, info, and interests
+
+	WelcomeView:
+		Display on first log in
+		- Design logo (at-sign); put at top
+		- Add intro paragraph: "Meet people nearby with similar interests."
 		- Add default & active FBConnect button image backgrounds
-		- Add notes below FBConnect button:
+		- Add notes below FBConnect button in small font:
 			- [Your privacy](link/to/privacy-policy) is 100% protected.
 				- Only stories you approve will be published.
 				- You may completely remove acani & your info at any time.
 				- We verify that all users are real.
 		- Add "Connect Anonymously" button below FBConnect button.
-		PrivacyPolicyView: @Matt
+		PrivacyPolicyView:
 			Modal view linked to from the WelcomeView
 			- Simple textView with userInteraction disabled.
 			- Model after Lovers privacy policy.
@@ -27,34 +46,43 @@ v. 1.0.0:
 	Point System:
 		- FConnect: 10 pts
 		- Post photo: 10 pts
-		- Send msessage: 2 pts
+		- Fill out a profile-info field: 5 pts
+		- Send message: 2 pts
 		- Reply to message: 1 pt
 
-	InterestsView: @Matt
-		List of interests
+	InterestsView:
 		- My Interests / All Interests
 			- Nested lists of interests
 		Server:
 			- Sinatra & MongoDB serve collection as JSON
 
+	ProfileView:
 	UsersView:
 		- LoadMore
-		- Settings button in upper right.
+		- Flair: green dot if online, unread msgs badge, favorite star
+		- Display me in upper-left if I'm a member
+		- Settings button in upper right
 			- Filtering
-		- Handle empty JSON array response
 
-	ProfileView:
-		
 	PhotoView:
 		- Serve 2X photos for high-res devices
 		- Cache large photos in filesystem
 
 	Chat:
+		- Deliver new messages on connect
+		- Send messages in background via WebSocket (or Push Notifications)
 		Server:
-			node.js & redis
-			- Store messages in MongoDB
-		View:
-			- See earlier messages (pagination)
+			- Rewrite chat server like node_chat
+			- Store messages in MongoDB (or Redis?)
+		MessagesView:
+			- Display conversations, like iPhone Messages
+		ChatView:
+			View:
+				- See earlier messages (pagination)
+				- Add receivers
+				- Add conditional timestamp support
+					- Make timestamps separate cells
+				- Fix rotation resizing bug
 
 Future Versions:
 	WelcomeView:
@@ -80,48 +108,23 @@ Future Versions:
 		- Search by keyword or username
 
 	MessagesView:
-		Shows all messages, like iPhone's native Messages app
-		- Rewrite chat server
-		ChatView:
-			- Fix rotation bug
-			- Add receivers
-
-
-	
-	Next:
-		- User profile & settings storage
-		- Users tableView
-		- Add conditional timestamp support
 
 	Refactor:
 		- Write function addMessage:message for send & receive
 		- How should we be fetching messages?
 		- Mark messages as read all at once instead of inside tableCell function.
 
-	Pages:
-		- Launcher View: add/search new people/groups to your launcher; rearrange; log out
-		- UsersView: photo grid w/ flags; header & iAd footer
-		- PhotoView: profile photo & info; favorite, block, & chat buttons
-		- ProfileView: edit profile fields, filters, & groups; edit group specific settings
-		- ChatView: chat; more button to send location, photo, clear chat. Push notifications
-		- Interface w/ Network Server. FBConnect & Twitter. Test & final touches
-
 	Server:
-		Sinatra & mongoDB
+		Sinatra & MongoDB
 		- Handle Block & Favorite buttons
 		- Make Team Page
 		- Create user if doesn't yet exist: find({ :device_id: id }); update location.
 		- Update profile info & photo
 
 	Chat Server:
-		node.js & redis
-		- Respond with new messages on connect
+		Node.js & Redis
 		- Send location
 		- Send photo
-	
-	Users:
-		- TableView
-		- Refresh
 
 	Put User info on Photo View:
 		- Get User info from User instance created from JSON
@@ -141,14 +144,11 @@ Future Versions:
 		- Send photos, video, location. 
 		- Edit: delete, forward, clear all
 			- Put each timestamp in its own cell
-		- Rebuild ChatInput & ChatBar with graphics, not background images
-		- Support landscape orientation. See SMS Bubbles app
 		- Touch ChatContentView to close keyboard
-		- Like Facebook chat, twitterfon show a small thumbnail of profile photo next to each message
+		- Like Facebook & twitterfon, show a small thumbnail of profile photo next to each message
 		- Tap and hold (or double-tap) on table-cell highlights msgText for copying
 			- sets backgroundViewSelected
 			- may require redesign of cell
-				- Make timestamps separate cells
 		- Message sending progress bar at top of navbar
 		- Message animation on send from msgInput to chatContent
 		Fix chatInputView bugs:
@@ -156,9 +156,8 @@ Future Versions:
 			- Type a word, hit return, hit backspace. Sometimes weird word suggestion is made.
 
 Recurring:
-	- Push to Git after adding each new feature. Make sure it builds first.
+	- Push to Git after adding each new feature. Always make sure it builds first.
 	- Keep TODO, README (getting started, etc.), RECIPES, HISTORY, etc. up to date
-
 
 Refactoring:
 	PhotoView:
@@ -180,8 +179,10 @@ Finance:
 	- Link this bank account to iTunesConnect
 
 Production:
+	- Convert all CoreData fields to optional
+	- Convert all release to release safely macro
 	- Deploy to acani.no.de
-	- Get affordable hosting (Amazon)
+	- Get affordable hosting (AWS)
 
 Get Matt Situated:
 	- get him a wireless card so he can use wireless on train

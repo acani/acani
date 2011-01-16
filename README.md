@@ -101,7 +101,7 @@ Run the following terminal commands:
     # **C**hange **D**irectory to where you want to store Git's source files
     cd ~/Sources/ # where I store source code that I don't work on
 
-Reference: <http://www.mattdipasquale.com/node/35>
+Reference: <http://www.mattdipasquale.com/blog/2010/05/30/instructions-how-to-install-git-from-source-on-mac-os-x-10-6-snow-leopard-intel-x86-32-bit>
 
 #### Clone Repositories
 
