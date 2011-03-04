@@ -183,7 +183,9 @@ RVM: <http://rvm.beginrescueend.com/rvm/basics/>
 2. Run `ruby acani-sinatra/seed/profiles.rb` to populate the MongoDB database.
 
 3. In `Constatns.h` in `acani-iphone/Lovers/Lovers.xcodeproj`, redefine
-   `SINATRA` to the local URI in the comment.
+   `kHost` to the local URI in the comment.
+
+4. Run `ruby acani.rb` from `acani-sinatra`.
 
 *CHECKPOINT*: When you build the iPhone app now, it will use the profile info,
 and pictures & thumbnails from your local machine. Congrats! You're a true
