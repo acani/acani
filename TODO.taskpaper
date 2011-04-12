@@ -3,9 +3,9 @@ acani:
 		- WelcomeView: logo & slogan, intro info, connect with Facebook
 			- PrivacyPolicyView (modalView): textView of the Privacy Policy
 		- LauncherView: add/search new people/interests to your launcher; rearrange; log out
-		- InterestsView: 
 		- ProfileView: edit profile fields, filters, & interests; edit interest-specific settings
 		- UsersView: photo grid w/ flags; header & iAd footer
+			- InterestsView: modal view that displays interests
 		- PhotoView: profile photo & info; favorite, block, & chat buttons
 		- MessagesView: display conversations, like iPhone Messages
 		- ChatView: chat; more button to send location, photo, clear chat. Push notifications
@@ -21,7 +21,8 @@ v. 1.0.0:
 			- On launch, set myUser if FBConnection exists
 				- Else, redirect to WelcomeView
 		Location:
-			- Make a global function to get location asynchronously
+			- Make a global function to get location asynchronously & while in background
+			- Look at Multitasking hammer slides and tutorials
 			- Check location every 3 minutes; send to server if greater than 3 miles from last sent location
 
 	FBConnect:
@@ -43,13 +44,6 @@ v. 1.0.0:
 			- Simple textView with userInteraction disabled.
 			- Model after Lovers privacy policy.
 
-	Point System:
-		- FConnect: 10 pts
-		- Post photo: 10 pts
-		- Fill out a profile-info field: 5 pts
-		- Send message: 2 pts
-		- Reply to message: 1 pt
-
 	InterestsView:
 		- My Interests / All Interests
 			- Nested lists of interests
@@ -57,38 +51,49 @@ v. 1.0.0:
 			- Sinatra & MongoDB serve collection as JSON
 
 	ProfileView:
+		- Make it display
+
 	UsersView:
-		- LoadMore
-		- Flair: green dot if online, unread msgs badge, favorite star
+		- LoadMore (disable button on click)
+		- Flair: green dot if online, unread msgs badge
 		- Display me in upper-left if I'm a member
+		- Show spinning dashes to signify that thumbnail is in the process of being loaded
+		- Randomly load different shades & versions of default (blank) photo
 		- Settings button in upper right
 			- Filtering
 
 	PhotoView:
 		- Serve 2X photos for high-res devices
 		- Cache large photos in filesystem
+		- Make about a scrollable textView
 
 	Chat:
 		- Deliver new messages on connect
-		- Send messages in background via WebSocket (or Push Notifications)
+		- Send messages via Push Notifications to users not online
 		Server:
 			- Rewrite chat server like node_chat
-			- Store messages in MongoDB (or Redis?)
 		MessagesView:
 			- Display conversations, like iPhone Messages
 		ChatView:
-			View:
-				- See earlier messages (pagination)
-				- Add receivers
-				- Add conditional timestamp support
-					- Make timestamps separate cells
-				- Fix rotation resizing bug
+			- See earlier messages (pagination)
+			- Add receivers
+			- Fix rotation resizing bug
+
+	Localization of UI Strings (Translation):
+		- Use same language as Apple & copy their plist files
 
 Future Versions:
 	WelcomeView:
 		- Split testing with NSURLConnection to maximize % of users that connect via Facebook
 		- Design & add background image like SCVNGR's
-		
+
+	Point System:
+		- FConnect: 10 pts
+		- Post photo: 10 pts
+		- Fill out a profile-info field: 5 pts
+		- Send message: 2 pts
+		- Reply to message: 1 pt
+
 	LauncherView:
 		Like the Facebook iPhone app
 		- Account button in upper left
@@ -106,13 +111,14 @@ Future Versions:
 
 	UsersView:
 		- Search by keyword or username
+		- Add flair: favorite star
 
 	MessagesView:
 
 	Refactor:
 		- Write function addMessage:message for send & receive
 		- How should we be fetching messages?
-		- Mark messages as read all at once instead of inside tableCell function.
+		- Mark messages as read all at once instead of inside tableCell function
 
 	Server:
 		Sinatra & MongoDB
@@ -123,21 +129,16 @@ Future Versions:
 
 	Chat Server:
 		Node.js & Redis
+		- Store messages in MongoDB (or Redis?)
 		- Send location
 		- Send photo
 
 	Put User info on Photo View:
-		- Get User info from User instance created from JSON
-		- Make it just like Grindr for now, except keep header the bluish-gray color it is now, not yellow
-		- Include Chat, Favorite, and Block buttons
+		- Include Favorite & Block buttons
 
 	Load Thumbnail View:
-		- Load JSON Users into NSMutableArray and load into tableView
 		- For each User object, load thumbnail photo:
-			- First, randomly load different shades & versions of default (blank) photo
-			- Show spinning dashes to signify that thumbnail is in the process of being loaded
 		- Add flair: username, red number, star, green dot, blue & yellow border/background
-		- Add refresh button (spin) & load more guys (disable)
 
 	ChatView:
 		- ChatContentHeader Buttons: Call, Contact Info/Add to Contacts, [Load Earlier Messages]

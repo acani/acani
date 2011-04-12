@@ -1,0 +1,38 @@
+PivotalTracker:
+
+launch:
+User can add icon
+- Facebook
+- User can add a shortcut icon to groups and other users
+User can search users & groups
+- Facebook
+- This should find acani users & groups and list them first by location. Then, it should find Facebook users and groups and list those
+
+User has permanent icons
+- Profile
+
+- Facebook
+
+
+profile:
+User can view profile
+User can edit profile
+User can delete profile
+User can block user
+
+
+User is reminded to rate acani
+- Grindr
+
+User can see ad-footer
+- Grindr
+
+
+
+Facebook: fb://profile/11011
+
+
+
+Reviews:
+
+
