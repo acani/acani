@@ -1,4 +1,4 @@
-acani:
+Acani:
 	Views:
 		- WelcomeView: logo & slogan, intro info, connect with Facebook
 			- PrivacyPolicyView (modalView): textView of the Privacy Policy
@@ -31,12 +31,11 @@ v. 1.0.0:
 	WelcomeView:
 		Display on first log in
 		- Design logo (at-sign); put at top
-		- Add intro paragraph: "Meet people nearby with similar interests."
 		- Add default & active FBConnect button image backgrounds
 		- Add notes below FBConnect button in small font:
 			- [Your privacy](link/to/privacy-policy) is 100% protected.
 				- Only stories you approve will be published.
-				- You may completely remove acani & your info at any time.
+				- You may completely remove Acani & your info at any time.
 				- We verify that all users are real.
 		- Add "Connect Anonymously" button below FBConnect button.
 		PrivacyPolicyView:
@@ -51,7 +50,8 @@ v. 1.0.0:
 			- Sinatra & MongoDB serve collection as JSON
 
 	ProfileView:
-		- Make it display
+		- Make it display (It currently crashes) @issue
+		- Compare with https://github.com/samsoffes/sspersonviewcontroller
 
 	UsersView:
 		- LoadMore (disable button on click)
@@ -81,6 +81,10 @@ v. 1.0.0:
 
 	Localization of UI Strings (Translation):
 		- Use same language as Apple & copy their plist files
+
+	Design:
+		ChatView:
+			- bubbles & send button
 
 Future Versions:
 	WelcomeView:
@@ -173,10 +177,10 @@ Refactoring:
 	NSURLConnection:
 		- Make generic Request class (like FBRequest) for saveProfile & join/leaveInterest.
 Bugs:
-	- set breakpoint on malloc_error_break and click acani, then back.
+	- set breakpoint on malloc_error_break and click Acani, then back.
 Finance:
 	- Apply for EIN online
-	- Open acani bank account during lunch in NYC
+	- Open Acani bank account during lunch in NYC
 	- Link this bank account to iTunesConnect
 
 Production:
