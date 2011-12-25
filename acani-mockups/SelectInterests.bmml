@@ -1,0 +1,50 @@
+<mockup version="1.0" skin="sketch" measuredW="282" measuredH="510" mockupW="282" mockupH="510">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::iPhoneMenu" x="32" y="156" w="218" h="-1" measuredW="215" measuredH="271" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <text>Hockey%2C%20v%0ASoccer%2C%20v%0AFootball%2C%20v%0ATennis%2C%20v%0AChess%2C%20v%0AComputer%20Science%2C%20v%0AModelling%2C%20v%0AMovies%2C%20v%0AWine%2C%20v</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="__group__" x="30" y="125" w="222" h="33" measuredW="222" measuredH="33" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="222" h="33" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="16"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SearchBox" x="0" y="5" w="222" h="-1" measuredW="149" measuredH="25" zOrder="1" locked="false" isInGroup="16">
+          <controlProperties>
+            <text>Search%20All%20Interests</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="17" controlTypeID="__group__" x="30" y="95" w="222" h="33" measuredW="222" measuredH="33" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="222" h="33" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="17"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::PointyButton" x="2" y="4" w="-1" h="-1" measuredW="54" measuredH="27" zOrder="1" locked="false" isInGroup="17">
+          <controlProperties>
+            <direction>left</direction>
+            <href>SelectPhotos%26bm%3BSelectPhotos.bmml%26bm%3BSelectPhotos.bmml%26bm%3BSelectPhotos.bmml</href>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2232%2C99%2C86%2C126%22%20href%3D%22SelectPhotos.bmml%22%20alt%3D%22SelectPhotos%22%20id%3D%221%22/%3E</map>
+            <size>11</size>
+            <text>Photos</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::PointyButton" x="154" y="5" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="2" locked="false" isInGroup="17">
+          <controlProperties>
+            <direction>center</direction>
+            <href>UsersView%26bm%3BUsersView.bmml%26bm%3BUsersView.bmml%26bm%3BUsersView.bmml</href>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22184%2C100%2C248%2C127%22%20href%3D%22UsersView.bmml%22%20alt%3D%22UsersView%22%20id%3D%222%22/%3E</map>
+            <size>11</size>
+            <text>Continue</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="59" y="6" w="-1" h="-1" measuredW="92" measuredH="21" zOrder="3" locked="false" isInGroup="17">
+          <controlProperties>
+            <size>12</size>
+            <text>Select%20Interests</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,165 @@
+<mockup version="1.0" skin="sketch" measuredW="497" measuredH="510" mockupW="497" mockupH="510">
+  <controls>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Paragraph" x="297" y="51" w="200" h="338" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Cancel%20button%20on%20top%20left%20will%20show%20an%20action%20sheet%20with%20logout%2C%20delete%20account%2C%20and%20cancel%20buttons%20and%20a%20note%20above%20that%20says%2C%20%22You%20must%20share%20at%20least%204%20photos%20on%20Acani%20to%20continue.%22%0A%20%0AIf%20you%20touch%20%22Continue%22%20before%20selecting%20at%20least%204%20photos%2C%20the%20alert%20is%20presented%20again%20with%2C%20%22You%20must%20share%20at%20least%204%20photos%20on%20Acani%20to%20continue.%22%0A%20%0AIf%20you%20request%20to%20%22Delete%20Account%2C%22%20ask%20for%20feedback%20and%20submit%20to%20server.</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="74" controlTypeID="__group__" x="39" y="143" w="201" h="285" measuredW="201" measuredH="285" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="201" h="47" measuredW="201" measuredH="47" zOrder="0" locked="false" isInGroup="74">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="2" w="44" h="45" measuredW="77" measuredH="79" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="52" y="0" w="44" h="45" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="0">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="104" y="1" w="44" h="45" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="0">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="157" y="0" w="44" h="45" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="0">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="0" y="58" w="201" h="47" measuredW="201" measuredH="47" zOrder="1" locked="false" isInGroup="74">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="2" w="44" h="45" measuredW="77" measuredH="79" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="52" y="0" w="44" h="45" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="104" y="1" w="44" h="45" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="157" y="0" w="44" h="45" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="0" y="118" w="201" h="47" measuredW="201" measuredH="47" zOrder="2" locked="false" isInGroup="74">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="2" w="44" h="45" measuredW="77" measuredH="79" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="52" y="0" w="44" h="45" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="104" y="1" w="44" h="45" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="157" y="0" w="44" h="45" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="3" controlTypeID="__group__" x="0" y="178" w="201" h="47" measuredW="201" measuredH="47" zOrder="3" locked="false" isInGroup="74">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="2" w="44" h="45" measuredW="77" measuredH="79" zOrder="0" locked="false" isInGroup="3">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="52" y="0" w="44" h="45" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="3">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="104" y="1" w="44" h="45" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="3">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="157" y="0" w="44" h="45" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="3">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="4" controlTypeID="__group__" x="0" y="238" w="201" h="47" measuredW="201" measuredH="47" zOrder="4" locked="false" isInGroup="74">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="2" w="44" h="45" measuredW="77" measuredH="79" zOrder="0" locked="false" isInGroup="4">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="52" y="0" w="44" h="45" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="4">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="104" y="1" w="44" h="45" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="4">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="157" y="0" w="44" h="45" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="4">
+              <controlProperties>
+                <text>Photo</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="100" controlTypeID="com.balsamiq.mockups::Alert" x="39" y="192" w="200" h="126" measuredW="200" measuredH="137" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Alert%0ASelect%20at%20least%204%20photos%20of%20you%20to%20share%20on%20Acani.%0AOK</text>
+      </controlProperties>
+    </control>
+    <control controlID="105" controlTypeID="__group__" x="29" y="96" w="222" h="33" measuredW="222" measuredH="33" zOrder="3" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="222" h="33" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="105"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::PointyButton" x="2" y="4" w="-1" h="-1" measuredW="53" measuredH="27" zOrder="1" locked="false" isInGroup="105">
+          <controlProperties>
+            <direction>center</direction>
+            <size>11</size>
+            <text>Cancel</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::PointyButton" x="154" y="5" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="2" locked="false" isInGroup="105">
+          <controlProperties>
+            <direction>center</direction>
+            <href>SelectInterests%26bm%3BSelectInterests.bmml%26bm%3BSelectInterests.bmml%26bm%3BSelectInterests.bmml</href>
+            <size>11</size>
+            <text>Continue</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="59" y="6" w="-1" h="-1" measuredW="92" measuredH="24" zOrder="3" locked="false" isInGroup="105">
+          <controlProperties>
+            <size>14</size>
+            <text>Select%20Photos</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

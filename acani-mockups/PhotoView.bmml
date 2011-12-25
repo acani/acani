@@ -1,0 +1,61 @@
+<mockup version="1.0" skin="sketch" measuredW="508" measuredH="510" mockupW="508" mockupH="510">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="30" y="95" w="222" h="33" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="125" y="101" w="-1" h="-1" measuredW="29" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>12</size>
+        <text>Sara</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Paragraph" x="308" y="61" w="200" h="322" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%22Tap%20anywhere%20on%20a%20profile%20to%20hide%20text%20and%20view%20a%20full%20photo.%22%20%28This%20will%20also%20hide%20nav%20%26%20status%20bars.%29%0A%20%0ASwipe%20left%20%26%20right%20to%20view%20other%20photos.%0A%20%0ADouble-tap%20to%20zoom%20in.%20Pinch%20to%20zoom.%0A%20%0AFuture%3A%20Ability%20to%20like%20or%20comment%20on%20a%20photo.</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::PointyButton" x="30" y="97" w="-1" h="-1" measuredW="81" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>left</direction>
+        <href>UsersView%26bm%3BUsersView.bmml%26bm%3BUsersView.bmml%26bm%3BUsersView.bmml</href>
+        <text>%7BInterest%7D</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::PointyButton" x="199" y="99" w="-1" h="-1" measuredW="49" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>center</direction>
+        <href>ChatView%26bm%3BChatView.bmml%26bm%3BChatView.bmml%26bm%3BChatView.bmml</href>
+        <text>Chat</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Webcam" x="30" y="128" w="222" h="299" measuredW="177" measuredH="146" zOrder="6" locked="false" isInGroup="-1"/>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::ModalScreen" x="36" y="137" w="68" h="75" measuredW="320" measuredH="240" zOrder="7" locked="false" isInGroup="-1"/>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Paragraph" x="36" y="137" w="68" h="75" measuredW="200" measuredH="140" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <size>8</size>
+        <text>Offline%0A1149%20feet%20away%0A22%20years%20old%0A5%275%0A110%20lbs.%0AWhite</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Paragraph" x="42" y="356" w="168" h="50" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <size>10</size>
+        <text>This%20is%20where%20the%20user%20can%20put%20anything%20they%27d%20like%20to%20write%20about%20themselves%20and%20their%20interests.</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::ModalScreen" x="34" y="326" w="180" h="88" measuredW="320" measuredH="240" zOrder="9" locked="false" isInGroup="-1"/>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Icon" x="220" y="332" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <icon>FacebookIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::SubTitle" x="42" y="328" w="-1" h="-1" measuredW="98" measuredH="24" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <size>14</size>
+        <text>User%27s%20Headline</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

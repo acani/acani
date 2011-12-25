@@ -1,0 +1,35 @@
+<mockup version="1.0" skin="sketch" measuredW="508" measuredH="510" mockupW="508" mockupH="510">
+  <controls>
+    <control controlID="0" controlTypeID="__group__" x="30" y="125" w="222" h="33" measuredW="222" measuredH="33" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="222" h="33" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="0"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SearchBox" x="0" y="5" w="222" h="-1" measuredW="149" measuredH="25" zOrder="1" locked="false" isInGroup="0">
+          <controlProperties>
+            <text>Search%20All%20Interests</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="30" y="95" w="222" h="33" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="115" y="101" w="-1" h="-1" measuredW="53" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>12</size>
+        <text>Interests</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::iPhoneMenu" x="32" y="156" w="218" h="-1" measuredW="215" measuredH="271" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <hrefs>UsersView%26bm%3BUsersView.bmml%26bm%3BUsersView.bmml%26bm%3BUsersView.bmml%2C%2C%2C%2C%2C%2C%2C%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2232%2C161%2C250%2C190%22%20href%3D%22UsersView.bmml%22%20alt%3D%22UsersView%22%20id%3D%225_0%22/%3E%0A</map>
+        <text>Hockey%2C%20%3E%0ASoccer%2C%20%3E%0AFootball%2C%20%3E%0ATennis%2C%20%3E%0AChess%2C%20%3E%0AComputer%20Science%2C%20%3E%0AModelling%2C%20%3E%0AMovies%2C%20%3E%0AWine%2C%20%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Paragraph" x="308" y="61" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Interests%20should%20be%20sorted%20by%20category%20and%20then%20name.%0A%20%0AFor%20MVP%2C%20interests%20can%20have%20parents%2C%20but%20not%20grandparents.%20In%20the%20future%2C%20we%20may%20want%20to%20nest%20interests.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
